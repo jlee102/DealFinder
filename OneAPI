@@ -1,0 +1,22 @@
+#Upload files to devcloud
+scp /Users/X470J/Downloads/archive/trip_data.csv
+scp /Users/X470J/Downloads/archive/TaxiProject.ipynb
+
+#Connect to Devcloud
+ssh devcloud
+
+#Clean up folder and confirm
+rm trip_data.csv
+rm TaxiProject.ipynb
+ls
+
+#Attempt to run OneAPI scripts
+ipython
+
+#Command 'ipython' not found, but can be installed with:
+
+#apt install ipython
+#Please ask your administrator.
+#install ipython
+apt install ipython
+#Unable to download ipython
