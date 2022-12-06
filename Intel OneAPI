@@ -16,3 +16,10 @@ pip install pandas #install dependencies
 pip install seaborn
 ipython TaxiProject.py #runs python file
 ls #lists files in folder - you can see there are graphs in the folder
+
+#Attempt to download to folder
+scp devcloud:/home/u169131/DealFinder/Rides_Day.png /Users/X470J/documents
+scp devcloud:/home/u169131/DealFinder/Rides_Hour.png /Users/X470J/documents
+scp devcloud:/home/u169131/DealFinder/Tip_Day.png /Users/X470J/documents
+scp devcloud:/home/u169131/DealFinder/Tip_Hour.png /Users/X470J/documents
+#Note that the number after u is unique to each account and the file path may be changed to the desired download path per the user
